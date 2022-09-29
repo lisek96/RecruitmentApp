@@ -1,7 +1,8 @@
-.header {
-    color: DodgerBlue;
-    padding: 40px;
-    font-family: Arial;
-    text-align: center;
+:root{
+    --green-color: #5CDB95;
+    --dark-green-color: #379683;
+    --dark-blue-color: #05386B;
+    --white-color: #EDF5E1;
+    --text-underline-offset: 0.6rem;
+    --chrome-margin-unapply: -0.5rem;
 }
-html,body{margin:0;padding:0}

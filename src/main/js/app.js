@@ -1,6 +1,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-import Header from "./header";
+import Header from "./Header/header";
+import Menu from "./Menu/menu";
 
 import {
     BrowserRouter as Router,
@@ -20,13 +21,16 @@ class App extends React.Component {
     }
 
     render() {
-        return ( <Header/>
-
-    )
+        return (
+            <div>
+                <Header/>
+                <Menu/>
+            </div>
+        )
     }
 }
 
 ReactDOM.render(
-    <App />,
+    <App/>,
     document.getElementById('react')
 )

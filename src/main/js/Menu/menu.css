@@ -1,0 +1,19 @@
+@import '../../resources/static/main.css';
+
+.menu{
+    position: fixed;
+    width: 8rem;
+    background-color: var(--green-color);
+    height: 100%;
+    margin-left: var(--chrome-margin-unapply);
+}
+
+.menuContentContainer{
+
+}
+
+.menuElementContainer{
+    padding-top: 3rem;
+    display: grid;
+    justify-items: center;
+}

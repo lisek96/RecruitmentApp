@@ -1,3 +1,13 @@
+@font-face {
+    font-family: bebas-neue-regular;
+    src: url('../fonts/BebasNeue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: bangers-regular;
+    src: url('../fonts/Bangers/Bangers-Regular.ttf');
+}
+
 :root{
     --green-color: #5CDB95;
     --dark-green-color: #379683;
@@ -5,4 +15,6 @@
     --white-color: #EDF5E1;
     --text-underline-offset: 0.6rem;
     --chrome-margin-unapply: -0.5rem;
+    --unexpanded-menu-width: 8rem;
+    --font-header: bebas-neue-regular;
 }

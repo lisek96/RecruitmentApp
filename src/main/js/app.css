@@ -1,0 +1,5 @@
+@import '../resources/static/main.css';
+
+.appContent{
+    padding-left: var(--unexpanded-menu-width);
+}

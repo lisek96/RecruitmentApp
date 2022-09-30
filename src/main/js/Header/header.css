@@ -3,17 +3,19 @@
 .header {
     background-color: var(--green-color);
     height: 9.5rem;
-    margin: var(--chrome-margin-unapply);
+    margin-top: var(--chrome-margin-unapply);
+    margin-left: var(--chrome-margin-unapply);
     display: grid;
     align-items: center;
 }
 
 .contentContainer{
-    padding-left: 2rem;
+    padding-left: var(--unexpanded-menu-width);
     display: grid;
-    grid-template-columns: 2fr repeat(3, 1.2fr) 1fr 2fr;
+    grid-template-columns: 2fr repeat(3, 1.2fr) repeat(3, 1fr);
     align-items: center;
-    justify-items: center;
+    justify-items: start;
+    font-family: var(--font-header);
 }
 
 .portalName {
@@ -33,16 +35,8 @@
     font-size: 2rem;
 }
 
-.loginAndRegistrationContainer{
-    width: 100%;
-    display: grid;
-    justify-self: start;
-    justify-items: start;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .loginAndRegistration {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 

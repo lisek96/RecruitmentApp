@@ -2,7 +2,7 @@
 
 .menu{
     position: fixed;
-    width: 8rem;
+    width: var(--unexpanded-menu-width);
     background-color: var(--green-color);
     height: 100%;
     margin-left: var(--chrome-margin-unapply);
@@ -16,4 +16,9 @@
     padding-top: 3rem;
     display: grid;
     justify-items: center;
+
+}
+
+.menuElement{
+    cursor: pointer;
 }
